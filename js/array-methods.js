@@ -17,3 +17,18 @@ const multpl = (a, b) => a * b;
 
 console.log(reduce(numbers, sum /*, 0 */));
 console.log(reduce(numbers, multpl));
+console.log(reduce(numbers, (acc, value) => acc * value));
+
+//======== Array Swap by Array Destructuring ========
+
+let firstDigit = 2;
+let secondDigit = 6;
+
+console.log("---- ---- ----");
+console.log("firstDigit:", firstDigit, "--", "secondDigit:", secondDigit);
+[firstDigit, secondDigit] = [secondDigit, firstDigit];
+
+console.log("---- ----");
+
+console.log("firstDigit:", firstDigit, "--", "secondDigit:", secondDigit);
+console.log("---- ---- ----");
