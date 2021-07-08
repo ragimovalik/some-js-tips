@@ -10,6 +10,9 @@ export const library = [
       "Conan Doyle",
       "Rudyard Kipling",
     ],
+    subscribers: 43,
+    isOpen: true,
+    isIllustrated: "some",
   },
   {
     bookshelf: "Bravo",
@@ -19,6 +22,9 @@ export const library = [
       "Thomas Hardy",
       "William Shakespeare",
     ],
+    subscribers: 90,
+    isOpen: true,
+    isIllustrated: "none",
   },
   {
     bookshelf: "Charlie",
@@ -29,6 +35,9 @@ export const library = [
       "Conan Doyle",
       "Rudyard Kipling",
     ],
+    subscribers: 19,
+    isOpen: false,
+    isIllustrated: "all",
   },
   {
     bookshelf: "Delta",
@@ -40,11 +49,8 @@ export const library = [
       "William Shakespeare",
       "Jerome Klapka Jerome",
     ],
+    subscribers: 50,
+    isOpen: true,
+    isIllustrated: "some",
   },
 ];
-
-// all of authors array
-
-const allAuthors = library.flatMap(({ authors }) => authors);
-
-// console.log(allAuthors);
